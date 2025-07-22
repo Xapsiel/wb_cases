@@ -27,5 +27,5 @@ func main() {
 	a := big.NewInt(1 << 62)
 	b := big.NewInt(1 << 42)
 	fmt.Printf("Числа: a = %s, b = %s\n", a, b)
-	performBigOperations(a, b)
+	Action(a, b)
 }
