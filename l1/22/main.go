@@ -5,7 +5,7 @@ import (
 	"math/big"
 )
 
-func performBigOperations(a, b *big.Int) {
+func Action(a, b *big.Int) {
 	sum := new(big.Int).Add(a, b)
 	fmt.Printf("Сумма: %s + %s = %s\n", a, b, sum)
 
